@@ -1,0 +1,231 @@
+/* header section starts here */
+#header{
+    background: url('./image2.jpg') no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    
+}
+#header .navbar-nav{
+    margin-left: 50%;
+}
+#header .title{
+    
+    margin-top: 10%;
+    color: white;
+}
+#header .navbar-brand{
+    font-weight: bolder;
+}
+
+#header .title_para2{
+    letter-spacing: 2px;
+}
+
+.middle{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .mouse{
+    width: 35px;
+    height: 55px;
+    border: 2px solid white;
+    border-radius: 60px;
+  }
+  .mouse::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 30px;
+    background: white;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    opacity: 1;
+    animation: mouse 2s infinite;
+  }
+  @keyframes mouse {
+    from{
+      opacity: 1;
+      top: 10px;
+    }
+    to{
+      opacity: 0;
+      top: 50px;
+    }
+  }
+  
+/* header section ends here */
+
+/* web_designer section starts here */
+
+#web_designer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+
+}
+
+#web_designer .square1{
+    width: 520px;
+    height: 420px;
+    background: url('./image1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+#web_designer .square{
+    height: 45px; 
+    width: 45px;
+    margin-top: 370px;
+    margin-left: 2%;
+    
+} 
+  #web_designer #square{
+      margin-left: 140px;
+}
+ 
+  #web_designer #fb{
+      margin-top: 5px;
+      margin-left: 10px;
+      color: white;
+      
+}
+  #web_designer #insta{
+      margin-top: 5px;
+      margin-left: 8px;
+      color: white;
+}
+  #web_designer #ball{
+    margin-top: 4px;
+    margin-left: 6px;
+    color: white;
+ }
+  #web_designer #com{
+  margin-top: 3px;
+  margin-left: 3px;  
+  color: white;
+}
+#web_designer #tweet{
+    margin-top: 4px;
+    margin-left: 6px;
+    color: white;
+}
+
+
+#web_designer .btn-1{
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 0 whitesmoke;
+    transition: ease-out 0.3s;
+    border: 1px solid;
+    font-weight: bold;
+    outline: none;
+}
+#web_designer .btn-1:hover{
+    box-shadow: inset 300px 0 0 0 whitesmoke;
+    cursor: pointer;
+    color: black;
+}
+
+#web_designer .btn-2{
+   margin-left: -170px;
+    width: 170px;
+    height: 40px;
+    border: none;
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 0 black;
+    transition: ease-out 0.3s;
+    border: 1px solid;
+    font-weight: bold;
+    outline: none;
+}
+#web_designer .btn-2:hover{
+    box-shadow: inset 300px 0 0 0 black;
+    cursor: pointer;
+    color: whitesmoke;
+}
+
+
+/* web_designer section ends here */
+
+/* about me section starts here */
+
+#about_me{
+    margin-bottom: 40px;
+    background-image: url('./image2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+#about_me #col{
+    margin-top: 60px;
+    color: white;
+}
+#about_me .dot{
+    height: 25px;
+    width: 25px;
+    margin-left: 260px;
+    background-color: rgb(27, 26, 26);
+    border-radius: 50% ;
+    display: inline-block;
+}
+#about_me .text{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* about me section ends here */
+
+/* cards section starts here */
+
+#my_cards{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: white;
+}
+
+#my_cards .dot {
+    height: 70px;
+    width: 70px;
+     margin-top: 8px;
+
+    background-color: black;
+    border-radius: 50% ;
+    display: inline-block;
+    box-shadow: 0 4px 8px 0 lightskyblue;
+}
+
+#my_cards .card{
+    box-shadow: 0 4px 4px 0 rgba(212, 202, 202, 0.055), 0 2px 4px 0  ;
+}
+ #my_cards .fab{
+     margin-top: 11px;
+     margin-left: 11px;
+     color: white;
+} 
+#my_cards .far{
+    margin-top: 20px;
+    margin-left: 18px;
+    color: white;
+}
+#my_cards .fas{
+    margin-top: 20px;
+    margin-left: 17px;
+    color: white;
+}
+
+/* cards section ends here */
